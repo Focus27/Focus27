@@ -1,0 +1,67 @@
+body{
+    background-color: black;
+
+}
+    
+ul{
+ display: flex;
+ justify-content: space-evenly;
+ list-style-type: none;
+ padding: 12px 65px 22px;
+ font-size: 24px;
+ font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+ text-decoration: none;
+ margin: -7px -7px;
+ transition: 0,5s;
+ cursor: pointer;
+}
+.topo{
+    transition: all 0.5s;
+    cursor: pointer;
+}
+
+.topo:hover{
+    -webkit-transform: scale(1.5);
+    transform: scale(1.5);
+
+}
+
+#background{
+    background-color: rgb(58, 7, 58);
+}
+
+ul a{
+    text-decoration: none;
+    color: aliceblue;
+    padding: 0px 0px;
+}
+img{
+    display: block;
+    margin: 0px -48px -30px;
+    width: 45px;
+}
+
+.Perfil{
+    display: flex;
+    color: aliceblue;
+    padding: 94px 50px 26px;
+    font-size: 50px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif ;
+    
+    
+}
+
+p{
+    color: aliceblue;
+    padding-left: 50px;
+    font-size: 25px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif ;
+    box-shadow: 5px gray;
+    
+}
+
+.decoration{
+    
+    width: 50px;
+    height: 50px;
+}
